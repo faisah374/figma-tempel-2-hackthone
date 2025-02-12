@@ -7,7 +7,7 @@ import { allProducts } from '@/sanity/lib/quries';
 
 import { urlFor } from '@/sanity/lib/image';
 import Link from 'next/link';
-import { product } from '../../../hackathon-template02/schema/product';
+
 import { addToCart } from '../action/action';
 import Swal from 'sweetalert2';
 

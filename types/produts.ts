@@ -1,3 +1,4 @@
+import { features } from 'process';
 
 
 
@@ -24,5 +25,6 @@ export interface Product {
               tags : string,
                quantity: number,
                dimensions?: string,
+               features:string
 
 }

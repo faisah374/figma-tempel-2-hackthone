@@ -7,7 +7,6 @@ import { groq } from 'next-sanity';
 import Image from 'next/image';
 
 import { urlFor } from '@/sanity/lib/image';
-import { features } from 'process';
 
 interface productPageProps {
     params:Promise<{slug :string}>;
